@@ -6,9 +6,9 @@ In this Arcade Game you are a player and you need to stay away from your enemies
 
 ## How To Run The Game
 
-🁤 Download the repository <br />
-🁥 Unzip the files <br />
-🁦 Open the /index.html/ 
+🁤 Download the repository. <br />
+🁥 Unzip the files. <br />
+🁦 Open the /index.html/. 
 
 ## Control Buttons
 
