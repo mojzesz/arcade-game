@@ -14,7 +14,7 @@ In this Arcade Game you are a player and you need to stay away from your enemies
 
 ## What The Player Is Expect From The Game
 
-- Be happy - it's just a game, you have three lives to be a hero.
+- Be happy - it's just a game, you have three lives to become a hero.
 - Be focused - the bugs are programmed, try to understand the algorithm behind them.
 - Be proud - if you finish the game without receving an alert: "GAME OVER", you are the best!
 
