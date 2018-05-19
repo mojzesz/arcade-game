@@ -16,7 +16,7 @@ In this Arcade Game you are a player and you need to stay away from your enemies
 
 - Be happy - it's just a game, you have three lives to become a hero.
 - Be focused - the bugs are programmed, try to understand the algorithm behind them.
-- Be proud - if you finish the game without receving an alert: "GAME OVER", you are the best!
+- Be proud - if you finish the game without receving an alert: "GAME OVER", chapeau bas!
 
 ## Characters To Choose
 
@@ -32,4 +32,5 @@ Haste makes waste.
 
 ## Resources
 
+* [Engine](https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001)
 * [Background](https://css-tricks.com/stripes-css/)
