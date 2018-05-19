@@ -29,7 +29,7 @@ var Engine = (function (global) {
         won = false;
 
     canvas.width = 505;
-    canvas.height = 706;
+    canvas.height = 716;
     doc.body.appendChild(canvas);
 
     /* This function serves as the kickoff point for the game loop itself
@@ -164,12 +164,12 @@ var Engine = (function (global) {
          */
         
         var rowImages = [
-                'images/water-block.png', // Top row is water
-                'images/stone-block.png', // Row 1 of 3 of stone
-                'images/stone-block.png', // Row 2 of 3 of stone
-                'images/stone-block.png', // Row 3 of 3 of stone
-                'images/grass-block.png', // Row 1 of 2 of grass
-                'images/grass-block.png' // Row 2 of 2 of grass
+                'img/water-block.png', // Top row is water
+                'img/stone-block.png', // Row 1 of 3 of stone
+                'img/stone-block.png', // Row 2 of 3 of stone
+                'img/stone-block.png', // Row 3 of 3 of stone
+                'img/grass-block.png', // Row 1 of 2 of grass
+                'img/grass-block.png' // Row 2 of 2 of grass
             ],
             numRows = 6,
             numCols = 5,
@@ -233,19 +233,19 @@ var Engine = (function (global) {
      */
     
     Resources.load([
-        'images/stone-block.png',
-        'images/water-block.png',
-        'images/grass-block.png',
-        'images/enemy-bug.png',
-        'images/char-boy.png',
-        'images/char-cat-girl.png',
-        'images/char-horn-girl.png',
-        'images/char-pink-girl.png',
-        'images/char-princess-girl.png',
-        'images/Selector.png',
-        'images/Gem Blue.png',
-        'images/Gem Green.png',
-        'images/Gem Orange.png'
+        'img/stone-block.png',
+        'img/water-block.png',
+        'img/grass-block.png',
+        'img/enemy-bug.png',
+        'img/char-boy.png',
+        'img/char-cat-girl.png',
+        'img/char-horn-girl.png',
+        'img/char-pink-girl.png',
+        'img/char-princess-girl.png',
+        'img/Selector.png',
+        'img/Gem Blue.png',
+        'img/Gem Green.png',
+        'img/Gem Orange.png'
     ]);
     Resources.onReady(init);
 

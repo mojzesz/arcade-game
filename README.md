@@ -4,6 +4,16 @@
 
 In this Arcade Game you are a player and you need to stay away from your enemies - bugs. The goal of the player is to reach the water, without colliding into any one of the enemies. The player can move left, right, up and down. The enemies move in varying speeds on the paved block portion of the scene. Once a the player collides with an enemy, the game is reset and the player moves back to the start square. Once the player reaches the water the game is won.
 
+## How To Run The Game
+
+🁤 Download the repository.
+🁥 Unzip the files.
+🁦 Open the /index.html/.
+
+## Control Buttons
+
+←↑→
+
 ## How The Game Is Played
 
 1. Choose your character.

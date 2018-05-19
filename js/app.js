@@ -19,7 +19,7 @@ var Enemy = function (row, spd, x) {
     // a helper we've provided to easily load images
     //
     
-    this.sprite = 'images/enemy-bug.png';
+    this.sprite = 'img/enemy-bug.png';
 };
 
 // Update the enemy's position, required method for game
@@ -49,7 +49,7 @@ Enemy.prototype.render = function () {
 // This class requires an update(), render() and
 // a handleInput() method.
 
-var player = function () {
+var Player = function () {
     this.x = 200;
     this.y = 405;
     this.life = 3;
@@ -60,22 +60,22 @@ var choosePlayer = function () {
     var char = prompt(str);
     switch (char) {
         case "1":
-            return "images/char-boy.png";
+            return "img/char-boy.png";
             break;
         case "2":
-            return 'images/char-pink-girl.png';
+            return 'img/char-pink-girl.png';
             break;
         case "3":
-            return 'images/char-horn-girl.png';
+            return 'img/char-horn-girl.png';
             break;
         case "4":
-            return 'images/char-cat-girl.png';
+            return 'img/char-cat-girl.png';
             break;
         case "5":
-            return 'images/char-princess-girl.png';
+            return 'img/char-princess-girl.png';
             break;
         default:
-            return "images/char-boy.png";
+            return "img/char-boy.png";
             break;
     }
 };
@@ -84,7 +84,7 @@ var choosePlayerUI = function () {
     context.restore();
 };
 
-player.prototype.update = function (x, y) {
+Player.prototype.update = function (x, y) {
     if (x !== undefined && y !== undefined) {
         this.x = x;
         this.y = y;
@@ -96,10 +96,10 @@ player.prototype.update = function (x, y) {
 
     this.render();
 };
-player.prototype.render = function () {
+Player.prototype.render = function () {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
-player.prototype.handleInput = function (key) {
+Player.prototype.handleInput = function (key) {
 
     if (key === 'left') {
         if (this.x !== -2) {
@@ -117,13 +117,10 @@ player.prototype.handleInput = function (key) {
         if (this.x !== 402) {
             this.x += 101;
         }
-
     }
-    console.log(this.x);
-    console.log(this.y);
 };
 
-player.prototype.reset = function () {
+Player.prototype.reset = function () {
     this.x = 200;
     this.y = 405;
 };
@@ -147,7 +144,7 @@ allEnemies.push(enemy4);
 allEnemies.push(enemy5);
 allEnemies.push(enemy6);
 
-var player = new player();
+var player = new Player();
 
 // This listens for key presses and sends the keys to your
 
